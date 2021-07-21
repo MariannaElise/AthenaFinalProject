@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		4FA2C8E126A76B4900A577A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C8E026A76B4900A577A5 /* AppDelegate.swift */; };
 		4FA2C8E326A76B4900A577A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C8E226A76B4900A577A5 /* SceneDelegate.swift */; };
-		4FA2C8E526A76B4900A577A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C8E426A76B4900A577A5 /* ViewController.swift */; };
 		4FA2C8E826A76B4900A577A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA2C8E626A76B4900A577A5 /* Main.storyboard */; };
 		4FA2C8EB26A76B4900A577A5 /* AthenaFinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C8E926A76B4900A577A5 /* AthenaFinalProject.xcdatamodeld */; };
 		4FA2C8ED26A76B5100A577A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA2C8EC26A76B5100A577A5 /* Assets.xcassets */; };
 		4FA2C8F026A76B5100A577A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA2C8EE26A76B5100A577A5 /* LaunchScreen.storyboard */; };
 		4FA2C8FB26A76B5200A577A5 /* AthenaFinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C8FA26A76B5200A577A5 /* AthenaFinalProjectTests.swift */; };
 		4FA2C90626A76B5200A577A5 /* AthenaFinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C90526A76B5200A577A5 /* AthenaFinalProjectUITests.swift */; };
+		4FA2C91626A7BF2400A577A5 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C91526A7BF2400A577A5 /* HomePage.swift */; };
+		4FA2C91826A7BFAC00A577A5 /* TopicOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C91726A7BFAC00A577A5 /* TopicOne.swift */; };
+		4FA2C91A26A7BFBF00A577A5 /* TopicTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C91926A7BFBF00A577A5 /* TopicTwo.swift */; };
+		4FA2C91C26A7BFD000A577A5 /* TopicThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C91B26A7BFD000A577A5 /* TopicThree.swift */; };
+		4FA2C91E26A7BFE000A577A5 /* TopicFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C91D26A7BFE000A577A5 /* TopicFour.swift */; };
+		4FA2C92026A7C03000A577A5 /* TopicFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C91F26A7C03000A577A5 /* TopicFive.swift */; };
+		4FA2C92226A7C04B00A577A5 /* TopicSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C92126A7C04B00A577A5 /* TopicSix.swift */; };
+		4FA2C92426A7C05E00A577A5 /* TopicSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C92326A7C05E00A577A5 /* TopicSeven.swift */; };
+		4FA2C92626A7C08900A577A5 /* TopicEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C92526A7C08900A577A5 /* TopicEight.swift */; };
+		4FA2C92826A7C2F600A577A5 /* AthenaBeginningPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C92726A7C2F600A577A5 /* AthenaBeginningPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +48,6 @@
 		4FA2C8DD26A76B4900A577A5 /* AthenaFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AthenaFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA2C8E026A76B4900A577A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FA2C8E226A76B4900A577A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4FA2C8E426A76B4900A577A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FA2C8E726A76B4900A577A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FA2C8EA26A76B4900A577A5 /* AthenaFinalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AthenaFinalProject.xcdatamodel; sourceTree = "<group>"; };
 		4FA2C8EC26A76B5100A577A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +59,16 @@
 		4FA2C90126A76B5200A577A5 /* AthenaFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AthenaFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA2C90526A76B5200A577A5 /* AthenaFinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenaFinalProjectUITests.swift; sourceTree = "<group>"; };
 		4FA2C90726A76B5200A577A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA2C91526A7BF2400A577A5 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		4FA2C91726A7BFAC00A577A5 /* TopicOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicOne.swift; sourceTree = "<group>"; };
+		4FA2C91926A7BFBF00A577A5 /* TopicTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTwo.swift; sourceTree = "<group>"; };
+		4FA2C91B26A7BFD000A577A5 /* TopicThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicThree.swift; sourceTree = "<group>"; };
+		4FA2C91D26A7BFE000A577A5 /* TopicFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicFour.swift; sourceTree = "<group>"; };
+		4FA2C91F26A7C03000A577A5 /* TopicFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicFive.swift; sourceTree = "<group>"; };
+		4FA2C92126A7C04B00A577A5 /* TopicSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicSix.swift; sourceTree = "<group>"; };
+		4FA2C92326A7C05E00A577A5 /* TopicSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicSeven.swift; sourceTree = "<group>"; };
+		4FA2C92526A7C08900A577A5 /* TopicEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicEight.swift; sourceTree = "<group>"; };
+		4FA2C92726A7C2F600A577A5 /* AthenaBeginningPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenaBeginningPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +121,17 @@
 			children = (
 				4FA2C8E026A76B4900A577A5 /* AppDelegate.swift */,
 				4FA2C8E226A76B4900A577A5 /* SceneDelegate.swift */,
-				4FA2C8E426A76B4900A577A5 /* ViewController.swift */,
+				4FA2C91526A7BF2400A577A5 /* HomePage.swift */,
 				4FA2C8E626A76B4900A577A5 /* Main.storyboard */,
+				4FA2C92726A7C2F600A577A5 /* AthenaBeginningPage.swift */,
+				4FA2C91726A7BFAC00A577A5 /* TopicOne.swift */,
+				4FA2C91926A7BFBF00A577A5 /* TopicTwo.swift */,
+				4FA2C91B26A7BFD000A577A5 /* TopicThree.swift */,
+				4FA2C91D26A7BFE000A577A5 /* TopicFour.swift */,
+				4FA2C91F26A7C03000A577A5 /* TopicFive.swift */,
+				4FA2C92126A7C04B00A577A5 /* TopicSix.swift */,
+				4FA2C92326A7C05E00A577A5 /* TopicSeven.swift */,
+				4FA2C92526A7C08900A577A5 /* TopicEight.swift */,
 				4FA2C8EC26A76B5100A577A5 /* Assets.xcassets */,
 				4FA2C8EE26A76B5100A577A5 /* LaunchScreen.storyboard */,
 				4FA2C8F126A76B5100A577A5 /* Info.plist */,
@@ -261,10 +288,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA2C8E526A76B4900A577A5 /* ViewController.swift in Sources */,
+				4FA2C92026A7C03000A577A5 /* TopicFive.swift in Sources */,
+				4FA2C91C26A7BFD000A577A5 /* TopicThree.swift in Sources */,
 				4FA2C8EB26A76B4900A577A5 /* AthenaFinalProject.xcdatamodeld in Sources */,
 				4FA2C8E126A76B4900A577A5 /* AppDelegate.swift in Sources */,
+				4FA2C91A26A7BFBF00A577A5 /* TopicTwo.swift in Sources */,
 				4FA2C8E326A76B4900A577A5 /* SceneDelegate.swift in Sources */,
+				4FA2C92826A7C2F600A577A5 /* AthenaBeginningPage.swift in Sources */,
+				4FA2C91E26A7BFE000A577A5 /* TopicFour.swift in Sources */,
+				4FA2C92626A7C08900A577A5 /* TopicEight.swift in Sources */,
+				4FA2C91626A7BF2400A577A5 /* HomePage.swift in Sources */,
+				4FA2C92226A7C04B00A577A5 /* TopicSix.swift in Sources */,
+				4FA2C91826A7BFAC00A577A5 /* TopicOne.swift in Sources */,
+				4FA2C92426A7C05E00A577A5 /* TopicSeven.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

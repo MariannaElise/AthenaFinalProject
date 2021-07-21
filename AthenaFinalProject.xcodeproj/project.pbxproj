@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24C30DC726A899EF0035FCDE /* coolvetica rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24C30DC626A899EF0035FCDE /* coolvetica rg.ttf */; };
 		4FA2C8E126A76B4900A577A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C8E026A76B4900A577A5 /* AppDelegate.swift */; };
 		4FA2C8E326A76B4900A577A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C8E226A76B4900A577A5 /* SceneDelegate.swift */; };
 		4FA2C8E826A76B4900A577A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA2C8E626A76B4900A577A5 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24C30DC626A899EF0035FCDE /* coolvetica rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "coolvetica rg.ttf"; path = "../../../Library/Fonts/coolvetica rg.ttf"; sourceTree = "<group>"; };
 		4FA2C8DD26A76B4900A577A5 /* AthenaFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AthenaFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA2C8E026A76B4900A577A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FA2C8E226A76B4900A577A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				4FA2C8E226A76B4900A577A5 /* SceneDelegate.swift */,
 				4FA2C91526A7BF2400A577A5 /* HomePage.swift */,
 				4FA2C8E626A76B4900A577A5 /* Main.storyboard */,
+				24C30DC626A899EF0035FCDE /* coolvetica rg.ttf */,
 				4FA2C92726A7C2F600A577A5 /* AthenaBeginningPage.swift */,
 				4FA2C91726A7BFAC00A577A5 /* TopicOne.swift */,
 				4FA2C91926A7BFBF00A577A5 /* TopicTwo.swift */,
@@ -264,6 +267,7 @@
 				4FA2C8F026A76B5100A577A5 /* LaunchScreen.storyboard in Resources */,
 				4FA2C8ED26A76B5100A577A5 /* Assets.xcassets in Resources */,
 				4FA2C8E826A76B4900A577A5 /* Main.storyboard in Resources */,
+				24C30DC726A899EF0035FCDE /* coolvetica rg.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

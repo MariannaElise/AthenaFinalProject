@@ -37,12 +37,12 @@ class AthenaBeginningPage: UIViewController {
 // override
     override func viewDidLoad() {
         super.viewDidLoad()
-        button.layer.shadowColor = UIColor.black.cgColor
+        
+        button.layer.shadowColor = UIColor(red: 0.9, green: 0.752, blue: 0.615, alpha:1).cgColor
           button.layer.shadowOffset = CGSize(width: 0, height: 0)
           button.layer.shadowRadius = 115
           button.layer.shadowOpacity = 1.0
-        self.button.applyGradient(colours: [.yellow, .blue])
-        self.view.applyGradient(colours: [.yellow, .blue, .red], locations: [0.0, 0.5, 1.0])
+        self.button.applyGradient(colours: [.red, .blue])
         // Do any additional setup after loading the view.
     }
     

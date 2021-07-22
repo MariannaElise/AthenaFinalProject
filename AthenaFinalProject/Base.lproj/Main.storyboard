@@ -252,6 +252,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image3" translatesAutoresizingMaskIntoConstraints="NO" id="PlC-uo-HSU">
+                                <rect key="frame" x="0.0" y="102" width="414" height="638"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="54P-W8-7xd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -259,7 +263,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0e8-9f-1h2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2001" y="352"/>
+            <point key="canvasLocation" x="2000.0000000000002" y="351.5625"/>
         </scene>
         <!--Topic Four-->
         <scene sceneID="ZxV-0o-QkR">
@@ -279,6 +283,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image6" translatesAutoresizingMaskIntoConstraints="NO" id="ffX-QJ-7sJ">
+                                <rect key="frame" x="-28" y="102" width="442" height="685"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Y5u-Md-S3H"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -286,7 +294,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bAH-mQ-bxE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1306" y="352"/>
+            <point key="canvasLocation" x="1305.7971014492755" y="351.5625"/>
         </scene>
         <!--Topic Six-->
         <scene sceneID="BX7-u1-dDU">
@@ -306,6 +314,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image5" translatesAutoresizingMaskIntoConstraints="NO" id="HSb-zS-9Yv">
+                                <rect key="frame" x="0.0" y="126" width="414" height="682"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Utu-SB-ILK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -313,7 +325,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6bq-yZ-Amb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2687" y="352"/>
+            <point key="canvasLocation" x="2686.9565217391305" y="351.5625"/>
         </scene>
         <!--Topic Eight-->
         <scene sceneID="yPs-yx-GhI">
@@ -333,6 +345,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image4" translatesAutoresizingMaskIntoConstraints="NO" id="fja-RE-oAB">
+                                <rect key="frame" x="0.0" y="138" width="414" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6UG-uB-oOh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -340,7 +356,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8gE-Vp-10Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3354" y="352"/>
+            <point key="canvasLocation" x="3353.6231884057975" y="351.5625"/>
         </scene>
         <!--Badgespage-->
         <scene sceneID="MhY-Zz-j6w">
@@ -388,6 +404,10 @@
                                     <segue destination="psC-Xw-f71" kind="show" id="ygT-zh-6ca"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image2" translatesAutoresizingMaskIntoConstraints="NO" id="fjx-8h-jHD">
+                                <rect key="frame" x="0.0" y="105" width="414" height="634"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="R1n-Un-kmn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -415,6 +435,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image8" translatesAutoresizingMaskIntoConstraints="NO" id="ljY-TY-sLn">
+                                <rect key="frame" x="0.0" y="90" width="414" height="718"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="M1Q-OZ-Ckk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -422,7 +446,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rd9-hk-myS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2019" y="-324"/>
+            <point key="canvasLocation" x="2018.840579710145" y="-324.10714285714283"/>
         </scene>
         <!--Topic Five-->
         <scene sceneID="sdB-aQ-CTF">
@@ -442,6 +466,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image7" translatesAutoresizingMaskIntoConstraints="NO" id="FS2-sh-gso">
+                                <rect key="frame" x="-12" y="145" width="426" height="610"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3wN-SF-Rej"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -469,6 +497,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="cnz-Ah-d1K">
+                                <rect key="frame" x="0.0" y="108" width="414" height="681"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ppb-j4-wQe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -476,12 +508,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9WG-FT-1cc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3355" y="-314"/>
+            <point key="canvasLocation" x="3353.6231884057975" y="-314.0625"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="fXv-BF-uuo"/>
-        <segue reference="e83-wb-76n"/>
+        <segue reference="YQV-Ni-hLY"/>
+        <segue reference="ygT-zh-6ca"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.left.circle" catalog="system" width="128" height="121"/>

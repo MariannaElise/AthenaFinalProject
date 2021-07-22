@@ -29,7 +29,8 @@ class HomePage: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        gradientButton.layer.cornerRadius = 19.0
+        
         // Do any additional setup after loading the view.
     }
     

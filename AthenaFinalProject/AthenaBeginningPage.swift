@@ -7,24 +7,6 @@
 
 import UIKit
 
-// helper extensions
-extension UIView {
-    @discardableResult
-    func applyGradient(colours: [UIColor]) -> CAGradientLayer {
-        return self.applyGradient(colours: colours, locations: nil)
-    }
-
-    @discardableResult
-    func applyGradient(colours: [UIColor], locations: [NSNumber]?) -> CAGradientLayer {
-        let gradient: CAGradientLayer = CAGradientLayer()
-        gradient.frame = self.bounds
-        gradient.colors = colours.map { $0.cgColor }
-        gradient.locations = locations
-        self.layer.insertSublayer(gradient, at: 0)
-        return gradient
-    }
-}
-
 // view controller
 class AthenaBeginningPage: UIViewController {
 
@@ -42,7 +24,7 @@ class AthenaBeginningPage: UIViewController {
           button.layer.shadowOffset = CGSize(width: 0, height: 0)
           button.layer.shadowRadius = 115
           button.layer.shadowOpacity = 1.0
-        self.button.applyGradient(colours: [.red, .blue])
+
         // Do any additional setup after loading the view.
     }
     

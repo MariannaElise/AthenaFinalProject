@@ -11,7 +11,10 @@ import UIKit
 class AthenaBeginningPage: UIViewController {
 
 // button
-    @IBOutlet weak var button: UIButton!
+    
+    @IBAction func button(_ sender: UIButton) {
+    }
+    
     
 // label
     @IBOutlet weak var AthenaTitle: UILabel!
@@ -19,11 +22,7 @@ class AthenaBeginningPage: UIViewController {
 // override
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        button.layer.shadowColor = UIColor(red: 0.9, green: 0.752, blue: 0.615, alpha:1).cgColor
-          button.layer.shadowOffset = CGSize(width: 0, height: 0)
-          button.layer.shadowRadius = 115
-          button.layer.shadowOpacity = 1.0
+//        button.layer.shadowColor = UIColor(red: 0.9, green: 0.752, blue: 0.615, alpha:1).cgColor;          button.layer.shadowOffset = CGSize(width: 0, height: 0);          button.layer.shadowRadius = 115         button.layer.shadowOpacity = 1.0
 
         // Do any additional setup after loading the view.
     }

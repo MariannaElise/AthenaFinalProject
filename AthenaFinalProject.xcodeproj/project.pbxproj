@@ -25,6 +25,7 @@
 		4FA2C92426A7C05E00A577A5 /* TopicSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C92326A7C05E00A577A5 /* TopicSeven.swift */; };
 		4FA2C92626A7C08900A577A5 /* TopicEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C92526A7C08900A577A5 /* TopicEight.swift */; };
 		4FA2C92826A7C2F600A577A5 /* AthenaBeginningPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C92726A7C2F600A577A5 /* AthenaBeginningPage.swift */; };
+		4FA2C92A26A9F2FC00A577A5 /* badgespage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C92926A9F2FC00A577A5 /* badgespage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		4FA2C92326A7C05E00A577A5 /* TopicSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicSeven.swift; sourceTree = "<group>"; };
 		4FA2C92526A7C08900A577A5 /* TopicEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicEight.swift; sourceTree = "<group>"; };
 		4FA2C92726A7C2F600A577A5 /* AthenaBeginningPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenaBeginningPage.swift; sourceTree = "<group>"; };
+		4FA2C92926A9F2FC00A577A5 /* badgespage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badgespage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				4FA2C8E226A76B4900A577A5 /* SceneDelegate.swift */,
 				4FA2C91526A7BF2400A577A5 /* HomePage.swift */,
 				4FA2C8E626A76B4900A577A5 /* Main.storyboard */,
+				4FA2C92926A9F2FC00A577A5 /* badgespage.swift */,
 				4FA2C92726A7C2F600A577A5 /* AthenaBeginningPage.swift */,
 				4FA2C91726A7BFAC00A577A5 /* TopicOne.swift */,
 				4FA2C91926A7BFBF00A577A5 /* TopicTwo.swift */,
@@ -292,6 +295,7 @@
 				4FA2C91C26A7BFD000A577A5 /* TopicThree.swift in Sources */,
 				4FA2C8EB26A76B4900A577A5 /* AthenaFinalProject.xcdatamodeld in Sources */,
 				4FA2C8E126A76B4900A577A5 /* AppDelegate.swift in Sources */,
+				4FA2C92A26A9F2FC00A577A5 /* badgespage.swift in Sources */,
 				4FA2C91A26A7BFBF00A577A5 /* TopicTwo.swift in Sources */,
 				4FA2C8E326A76B4900A577A5 /* SceneDelegate.swift in Sources */,
 				4FA2C92826A7C2F600A577A5 /* AthenaBeginningPage.swift in Sources */,

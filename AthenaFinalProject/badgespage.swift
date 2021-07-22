@@ -1,18 +1,14 @@
 //
-//  TopicOne.swift
+//  badgespage.swift
 //  AthenaFinalProject
 //
-//  Created by Marianna Rodriguez-Rivera on 7/20/21.
+//  Created by Marianna Rodriguez-Rivera on 7/22/21.
 //
 
 import UIKit
 
-class TopicOne: UIViewController {
+class badgespage: UIViewController {
 
-    @IBAction func homeButton(_ sender: UIButton) {
-    }
-    @IBAction func badgeButton(_ sender: UIButton) {
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

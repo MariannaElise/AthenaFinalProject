@@ -10,26 +10,32 @@ import UIKit
 class HomePage: UIViewController {
    
     var isGradientAdded: Bool = false
-
-    @IBOutlet weak var gradientButton: UIButton!
+    @IBOutlet weak var homePageTitle: UITextField!
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-
-        if !isGradientAdded {
-
-            let colors = [UIColor.red.cgColor, UIColor.green.cgColor, UIColor.blue.cgColor]
-
-            let gradientLayer = CAGradientLayer()
-            gradientLayer.colors = colors
-            gradientLayer.frame = self.gradientButton.bounds
-            self.gradientButton.layer.insertSublayer(gradientLayer, at: 0)
-        }
+    @IBAction func badgeButton(_ sender: UIButton) {
     }
     
+    
+    @IBAction func topicOneButton(_ sender: UIButton) {
+    }
+    @IBAction func topicTwoButton(_ sender: UIButton) {
+    }
+    @IBAction func buttonTopicThree(_ sender: UIButton) {
+    }
+    @IBAction func topicFourButton(_ sender: UIButton) {
+    }
+    @IBAction func topicFiveButton(_ sender: UIButton) {
+    }
+    @IBAction func topicSixButton(_ sender: UIButton) {
+    }
+    @IBAction func topicSevenButton(_ sender: UIButton) {
+    }
+    @IBAction func topicEightButton(_ sender: UIButton) {
+    }
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        gradientButton.layer.cornerRadius = 19.0
+    
         
         // Do any additional setup after loading the view.
     }

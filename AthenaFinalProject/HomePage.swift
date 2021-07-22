@@ -9,7 +9,25 @@ import UIKit
 
 class HomePage: UIViewController {
    
-    var isGradientAdded: Bool = false
+    @IBOutlet weak var roundButton1: UIButton!
+    
+    @IBOutlet weak var roundButton2: UIButton!
+    
+    @IBOutlet weak var roundButton3: UIButton!
+    
+    
+    @IBOutlet weak var roundButton4: UIButton!
+    
+    @IBOutlet weak var roundButton5: UIButton!
+    
+    @IBOutlet weak var roundButton6: UIButton!
+    
+    @IBOutlet weak var roundButton7: UIButton!
+    
+    
+    @IBOutlet weak var roundButton8: UIButton!
+    
+   
     @IBOutlet weak var homePageTitle: UITextField!
     
     @IBAction func badgeButton(_ sender: UIButton) {
@@ -36,6 +54,23 @@ class HomePage: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        roundButton1.layer.cornerRadius = 10.0
+            roundButton1.layer.masksToBounds = true
+        roundButton2.layer.cornerRadius = 10.0
+            roundButton2.layer.masksToBounds = true
+        roundButton3.layer.cornerRadius = 10.0
+            roundButton3.layer.masksToBounds = true
+        roundButton4.layer.cornerRadius = 10.0
+            roundButton4.layer.masksToBounds = true
+        roundButton5.layer.cornerRadius = 10.0
+            roundButton5.layer.masksToBounds = true
+        roundButton6.layer.cornerRadius = 10.0
+            roundButton6.layer.masksToBounds = true
+        roundButton7.layer.cornerRadius = 10.0
+            roundButton7.layer.masksToBounds = true
+        roundButton8.layer.cornerRadius = 10.0
+            roundButton8.layer.masksToBounds = true
+        
         
         // Do any additional setup after loading the view.
     }

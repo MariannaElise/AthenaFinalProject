@@ -50,15 +50,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1Y-5x-qcc">
-                                <rect key="frame" x="184" y="403" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnW-dX-ZRC">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="251-bT-OOS"/>
-                                    <segue destination="psC-Xw-f71" kind="popoverPresentation" popoverAnchorView="b1Y-5x-qcc" id="aMk-Fz-AqZ">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ZY-0z-6de"/>
+                                    <segue destination="psC-Xw-f71" kind="presentation" id="e83-wb-76n"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -81,9 +79,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IhH-fX-iIj">
-                                <rect key="frame" x="37" y="122" width="153" height="163"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IhH-fX-iIj">
+                                <rect key="frame" x="37" y="111" width="153" height="163"/>
                                 <state key="normal" title="Button" backgroundImage="image2"/>
                                 <connections>
                                     <action selector="topicOneButton:" destination="psC-Xw-f71" eventType="touchUpInside" id="0FO-C2-vnA"/>
@@ -98,9 +95,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdX-s9-W1f">
-                                <rect key="frame" x="37" y="293" width="153" height="163"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdX-s9-W1f">
+                                <rect key="frame" x="37" y="293" width="153" height="155"/>
                                 <state key="normal" title="Button" backgroundImage="image8"/>
                                 <connections>
                                     <action selector="buttonTopicThree:" destination="psC-Xw-f71" eventType="touchUpInside" id="zC6-AR-iiX"/>
@@ -109,9 +105,8 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PVq-pg-W7d">
-                                <rect key="frame" x="37" y="464" width="153" height="163"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PVq-pg-W7d">
+                                <rect key="frame" x="37" y="464" width="153" height="157"/>
                                 <state key="normal" title="Button" backgroundImage="image7"/>
                                 <connections>
                                     <action selector="topicFiveButton:" destination="psC-Xw-f71" eventType="touchUpInside" id="k2F-yX-fwj"/>
@@ -120,9 +115,8 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfq-CO-Kly">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfq-CO-Kly">
                                 <rect key="frame" x="37" y="635" width="153" height="163"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" backgroundImage="image1"/>
                                 <connections>
                                     <action selector="topicSevenButton:" destination="psC-Xw-f71" eventType="touchUpInside" id="S5S-6a-dcI"/>
@@ -131,20 +125,8 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYh-3L-wxf">
-                                <rect key="frame" x="232" y="122" width="153" height="163"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" backgroundImage="image6"/>
-                                <connections>
-                                    <action selector="topicTwoButton:" destination="psC-Xw-f71" eventType="touchUpInside" id="AmW-bQ-sPb"/>
-                                    <segue destination="iuX-bI-C9U" kind="popoverPresentation" popoverAnchorView="TYh-3L-wxf" id="qxZ-YS-eu7">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwe-ec-X0U">
-                                <rect key="frame" x="232" y="293" width="153" height="163"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwe-ec-X0U">
+                                <rect key="frame" x="232" y="293" width="153" height="155"/>
                                 <state key="normal" title="Button" backgroundImage="image3"/>
                                 <connections>
                                     <action selector="topicFourButton:" destination="psC-Xw-f71" eventType="touchUpInside" id="Lgc-aC-TcR"/>
@@ -153,9 +135,8 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYV-nX-P7A">
-                                <rect key="frame" x="232" y="464" width="153" height="163"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYV-nX-P7A">
+                                <rect key="frame" x="232" y="464" width="153" height="157"/>
                                 <state key="normal" title="Button" backgroundImage="image5"/>
                                 <connections>
                                     <action selector="topicSixButton:" destination="psC-Xw-f71" eventType="touchUpInside" id="3xS-pi-CCf"/>
@@ -164,9 +145,8 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jH-km-XPb">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jH-km-XPb">
                                 <rect key="frame" x="232" y="635" width="153" height="163"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" backgroundImage="image4"/>
                                 <connections>
                                     <action selector="topicEightButton:" destination="psC-Xw-f71" eventType="touchUpInside" id="pD3-p1-IYH"/>
@@ -189,14 +169,65 @@
                                     </segue>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYh-3L-wxf">
+                                <rect key="frame" x="232" y="111" width="153" height="163"/>
+                                <state key="normal" title="Button" backgroundImage="image6"/>
+                                <connections>
+                                    <action selector="topicTwoButton:" destination="psC-Xw-f71" eventType="touchUpInside" id="AmW-bQ-sPb"/>
+                                    <segue destination="iuX-bI-C9U" kind="popoverPresentation" popoverAnchorView="TYh-3L-wxf" id="qxZ-YS-eu7">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="m9f-oI-SOf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="6jH-km-XPb" secondAttribute="bottom" constant="10" id="5u1-05-p3p"/>
+                            <constraint firstItem="yYV-nX-P7A" firstAttribute="top" secondItem="1pV-cn-5ti" secondAttribute="topMargin" constant="464" id="5xE-YR-fHE"/>
+                            <constraint firstItem="cfq-CO-Kly" firstAttribute="top" secondItem="1pV-cn-5ti" secondAttribute="topMargin" constant="635" id="6Kq-YQ-5oQ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="IhH-fX-iIj" secondAttribute="bottom" constant="534" id="6w4-5f-0Iq"/>
+                            <constraint firstItem="TYh-3L-wxf" firstAttribute="leading" secondItem="1pV-cn-5ti" secondAttribute="leadingMargin" constant="212" id="9K5-q6-Gfa"/>
+                            <constraint firstItem="JdX-s9-W1f" firstAttribute="leading" secondItem="1pV-cn-5ti" secondAttribute="leadingMargin" constant="17" id="Bvf-1l-n9H"/>
+                            <constraint firstItem="PVq-pg-W7d" firstAttribute="top" secondItem="1pV-cn-5ti" secondAttribute="topMargin" constant="464" id="Czm-Vl-Wec"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IhH-fX-iIj" secondAttribute="trailing" constant="204" id="Dks-i9-KW5"/>
+                            <constraint firstItem="yYV-nX-P7A" firstAttribute="leading" secondItem="1pV-cn-5ti" secondAttribute="leadingMargin" constant="212" id="E2C-rr-eLc"/>
+                            <constraint firstItem="IhH-fX-iIj" firstAttribute="top" secondItem="1pV-cn-5ti" secondAttribute="topMargin" constant="111" id="EWe-io-gzc"/>
+                            <constraint firstItem="cfq-CO-Kly" firstAttribute="leading" secondItem="1pV-cn-5ti" secondAttribute="leadingMargin" constant="17" id="GMU-qH-HbJ"/>
+                            <constraint firstItem="hwe-ec-X0U" firstAttribute="top" secondItem="1pV-cn-5ti" secondAttribute="topMargin" constant="293" id="Hnl-iK-7nU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TYh-3L-wxf" secondAttribute="trailing" constant="9" id="Jhq-2J-Voq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PVq-pg-W7d" secondAttribute="trailing" constant="204" id="Mmx-oo-EHc"/>
+                            <constraint firstItem="IhH-fX-iIj" firstAttribute="leading" secondItem="1pV-cn-5ti" secondAttribute="leadingMargin" constant="17" id="N3e-7O-aU8"/>
+                            <constraint firstItem="TYh-3L-wxf" firstAttribute="top" secondItem="1pV-cn-5ti" secondAttribute="topMargin" constant="111" id="P9V-RJ-Qxj"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="cfq-CO-Kly" secondAttribute="bottom" constant="10" id="QEw-Vr-CtY"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="yYV-nX-P7A" secondAttribute="bottom" constant="187" id="RAi-kY-iIX"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="hwe-ec-X0U" secondAttribute="bottom" constant="360" id="SE4-ON-cFd"/>
+                            <constraint firstItem="6jH-km-XPb" firstAttribute="leading" secondItem="1pV-cn-5ti" secondAttribute="leadingMargin" constant="212" id="TeX-q1-JD2"/>
+                            <constraint firstItem="JdX-s9-W1f" firstAttribute="top" secondItem="1pV-cn-5ti" secondAttribute="topMargin" constant="293" id="WGH-XF-1XQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JdX-s9-W1f" secondAttribute="trailing" constant="204" id="erB-DP-c1y"/>
+                            <constraint firstItem="6jH-km-XPb" firstAttribute="top" secondItem="1pV-cn-5ti" secondAttribute="topMargin" constant="635" id="h0n-ML-Gmz"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="JdX-s9-W1f" secondAttribute="bottom" constant="360" id="isj-nI-ylZ"/>
+                            <constraint firstItem="hwe-ec-X0U" firstAttribute="leading" secondItem="1pV-cn-5ti" secondAttribute="leadingMargin" constant="212" id="jOT-tV-DPN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cfq-CO-Kly" secondAttribute="trailing" constant="204" id="jWH-hQ-yxc"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="TYh-3L-wxf" secondAttribute="bottom" constant="534" id="nR9-x0-dOs"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="PVq-pg-W7d" secondAttribute="bottom" constant="187" id="pv5-VO-11E"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6jH-km-XPb" secondAttribute="trailing" constant="9" id="qpM-em-9mi"/>
+                            <constraint firstItem="PVq-pg-W7d" firstAttribute="leading" secondItem="1pV-cn-5ti" secondAttribute="leadingMargin" constant="17" id="uRk-LH-PX5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yYV-nX-P7A" secondAttribute="trailing" constant="9" id="w78-hW-1V1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hwe-ec-X0U" secondAttribute="trailing" constant="9" id="ypW-Kx-0vX"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oCv-Xa-VV4"/>
                     <connections>
-                        <outlet property="gradientButton" destination="IhH-fX-iIj" id="Nwv-In-oGx"/>
                         <outlet property="homePageTitle" destination="CLC-d5-7GD" id="I9G-GX-LFb"/>
+                        <outlet property="roundButton1" destination="IhH-fX-iIj" id="a2C-JC-MXS"/>
+                        <outlet property="roundButton2" destination="TYh-3L-wxf" id="UoD-Lz-tOO"/>
+                        <outlet property="roundButton3" destination="JdX-s9-W1f" id="jvp-3j-xDt"/>
+                        <outlet property="roundButton4" destination="hwe-ec-X0U" id="DtD-fr-XHK"/>
+                        <outlet property="roundButton5" destination="PVq-pg-W7d" id="5Ce-T6-rdg"/>
+                        <outlet property="roundButton6" destination="yYV-nX-P7A" id="x0Z-RN-fiB"/>
+                        <outlet property="roundButton7" destination="cfq-CO-Kly" id="JZS-8K-SmM"/>
+                        <outlet property="roundButton8" destination="6jH-km-XPb" id="aJ1-lF-fiv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GQI-W2-Hr7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -206,7 +237,6 @@
         <!--Topic Two-->
         <scene sceneID="EhX-DV-qH1">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0e8-9f-1h2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="iuX-bI-C9U" customClass="TopicTwo" customModule="AthenaFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m7v-gu-pvo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -227,13 +257,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0e8-9f-1h2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2001" y="352"/>
         </scene>
         <!--Topic Four-->
         <scene sceneID="ZxV-0o-QkR">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bAH-mQ-bxE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Ipx-Z2-mB3" customClass="TopicFour" customModule="AthenaFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M24-wv-2Gw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -254,13 +284,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bAH-mQ-bxE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1306" y="352"/>
         </scene>
         <!--Topic Six-->
         <scene sceneID="BX7-u1-dDU">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6bq-yZ-Amb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="UZv-2Y-60p" customClass="TopicSix" customModule="AthenaFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mg9-o3-tsP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -281,13 +311,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6bq-yZ-Amb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2687" y="352"/>
         </scene>
         <!--Topic Eight-->
         <scene sceneID="yPs-yx-GhI">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8gE-Vp-10Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="69Z-YJ-79A" customClass="TopicEight" customModule="AthenaFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EvE-fD-WxR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -308,6 +338,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8gE-Vp-10Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3354" y="352"/>
         </scene>
@@ -329,7 +360,6 @@
         <!--Topic One-->
         <scene sceneID="bkc-Eg-erH">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fCE-fd-CAa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="e6s-Oh-KLG" customClass="TopicOne" customModule="AthenaFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cja-Es-Q08">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -363,13 +393,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fCE-fd-CAa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1340.5797101449277" y="-324.10714285714283"/>
         </scene>
         <!--Topic Three-->
         <scene sceneID="kG4-71-qSy">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Rd9-hk-myS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="JH0-hl-zW7" customClass="TopicThree" customModule="AthenaFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kOf-hm-U7w">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -390,13 +420,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rd9-hk-myS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2019" y="-324"/>
         </scene>
         <!--Topic Five-->
         <scene sceneID="sdB-aQ-CTF">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Nmp-vp-ejv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="IZN-sB-65Z" customClass="TopicFive" customModule="AthenaFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sKP-L4-hGG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -417,13 +447,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nmp-vp-ejv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2686.9565217391305" y="-314.0625"/>
         </scene>
         <!--Topic Seven-->
         <scene sceneID="1J2-dc-I4c">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9WG-FT-1cc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="zjN-ij-oC7" customClass="TopicSeven" customModule="AthenaFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uhg-hK-NSB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -444,13 +474,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9WG-FT-1cc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3355" y="-314"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="YQV-Ni-hLY"/>
-        <segue reference="ygT-zh-6ca"/>
+        <segue reference="fXv-BF-uuo"/>
+        <segue reference="e83-wb-76n"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.left.circle" catalog="system" width="128" height="121"/>

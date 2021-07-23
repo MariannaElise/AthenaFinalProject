@@ -83,7 +83,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="IhH-fX-iIj">
                                 <rect key="frame" x="37" y="111" width="153" height="163"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Bosnia and Herzegovina" backgroundImage="image2">
+                                <state key="normal" title="  Bosnia and Herzegovina" backgroundImage="image2">
                                     <color key="titleColor" red="0.93307572599999999" green="0.9215995669" blue="0.93773037199999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -93,11 +93,11 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Discovery Page" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CLC-d5-7GD">
-                                <rect key="frame" x="115" y="32" width="185" height="71"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="  Discovery Page" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CLC-d5-7GD">
+                                <rect key="frame" x="115" y="32" width="195" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.82617128559999997" green="0.76104573990000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="32"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="JdX-s9-W1f">
@@ -169,20 +169,6 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NsC-SN-cl3">
-                                <rect key="frame" x="297" y="32" width="126" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal">
-                                    <imageReference key="image" image="star" catalog="system" symbolScale="large"/>
-                                </state>
-                                <connections>
-                                    <action selector="badgeButton:" destination="psC-Xw-f71" eventType="touchUpInside" id="yNb-gI-hrm"/>
-                                    <segue destination="2fU-wn-tHL" kind="popoverPresentation" popoverAnchorView="NsC-SN-cl3" id="fXv-BF-uuo">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TYh-3L-wxf">
                                 <rect key="frame" x="232" y="111" width="153" height="163"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -192,6 +178,20 @@
                                 <connections>
                                     <action selector="topicTwoButton:" destination="psC-Xw-f71" eventType="touchUpInside" id="AmW-bQ-sPb"/>
                                     <segue destination="iuX-bI-C9U" kind="popoverPresentation" popoverAnchorView="TYh-3L-wxf" id="qxZ-YS-eu7">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NsC-SN-cl3">
+                                <rect key="frame" x="308" y="32" width="115" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="star" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="badgeButton:" destination="psC-Xw-f71" eventType="touchUpInside" id="yNb-gI-hrm"/>
+                                    <segue destination="2fU-wn-tHL" kind="popoverPresentation" popoverAnchorView="NsC-SN-cl3" id="fXv-BF-uuo">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -300,8 +300,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image6" translatesAutoresizingMaskIntoConstraints="NO" id="ffX-QJ-7sJ">
-                                <rect key="frame" x="-28" y="102" width="442" height="685"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image6" translatesAutoresizingMaskIntoConstraints="NO" id="ffX-QJ-7sJ">
+                                <rect key="frame" x="-28" y="102" width="442" height="695"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -540,8 +540,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="YQV-Ni-hLY"/>
-        <segue reference="ygT-zh-6ca"/>
+        <segue reference="fXv-BF-uuo"/>
+        <segue reference="e83-wb-76n"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.left.circle" catalog="system" width="128" height="121"/>

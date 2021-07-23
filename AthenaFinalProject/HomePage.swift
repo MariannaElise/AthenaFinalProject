@@ -71,7 +71,15 @@ class HomePage: UIViewController {
         roundButton8.layer.cornerRadius = 10.0
             roundButton8.layer.masksToBounds = true
         
-        
+      
+//        roundButton1.setTitle("Bosnia and Herzegovina", for:.normal)
+//        roundButton2.setTitle("Puerto Rico Food Soveriegnty",for:.normal)
+//        roundButton3.setTitle("Israel-Palestine Occupation",for:.normal)
+//        roundButton4.setTitle("Uyghur Genocide",for:.normal)
+//        roundButton5.setTitle("The Social Struggles of Afro-Latinos",for:.normal)
+
+
+
         // Do any additional setup after loading the view.
     }
     
